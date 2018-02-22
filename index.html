@@ -1,0 +1,49 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <title>Country Search Engine</title>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+
+<!--        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    -->
+       <link rel="stylesheet" href="style.css">
+
+     </head>
+<body>
+
+    <main class="text-center main">
+      <h1>Country search engine</h1>
+    <div class="box">
+      <button class="btn btn-info">Search a country: </button>
+      <input id="country-name" class="btn" type="text"><input id="search" class="btn" type="submit">
+    </div>
+    <div class="result">
+        <div class="countries">
+            <h2>List of countries :</h2>
+            <ol id="countries">
+            <li>No data</li>
+          </ol>
+        </div>
+        <div class="capitals">
+            <h4>Capitals:</h4>
+            <ul id="capitals">
+            <li>No data</li>
+            </ul>
+        </div>
+        <div class="population">
+            <h4>Population:</h4>
+            <ul id="population">
+            <li>No data</li>
+            </ul>
+        </div>
+      </div>
+    </main>
+
+
+     <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
