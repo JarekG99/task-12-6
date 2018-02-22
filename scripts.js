@@ -21,7 +21,9 @@ $.ajax({
   	});
 }
 
-$('#country-name').click.empty();
+$('#country-name').click(function() {
+  $(this).val('');
+});
 
 function showCountriesList(resp) {
   countriesList.empty();
